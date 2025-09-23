@@ -9,7 +9,6 @@ const TopNav = () => {
 
   // চেক করছি রুটটা /rooms/:id কিনা
   const isRoomPage = location.pathname.startsWith("/rooms/");
-  console.log(isRoomPage)
  
     const [hideMiddleNav, setHideMiddleNav] = useState(isRoomPage);
     const [menuOpen, setMenuOpen] = useState(false);
@@ -38,7 +37,7 @@ useEffect(() => {
   lastScrollYRef.current = window.scrollY;
   window.addEventListener("scroll", handleScroll, { passive: true });
   return () => window.removeEventListener("scroll", handleScroll);
-}, []);
+}, [isRoomPage]);
 
 
     return (
