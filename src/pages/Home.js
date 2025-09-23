@@ -1,4 +1,4 @@
-import GalleryImage from "../components/GalleryImage"
+
 import HomeProductList from "../components/HomeProductList"
 import Inspiration from "../components/Inspiration"
 

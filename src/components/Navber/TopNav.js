@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import  { useEffect, useRef, useState } from "react";
 import { Globe, Menu } from "lucide-react";
 import SearchNav from "./SearchNav";
 import SearchNav2 from "./SearchNav2";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import MenuOpen from "./MenuOpen";
 const TopNav = () => {
     const location = useLocation();
