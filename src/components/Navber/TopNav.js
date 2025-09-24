@@ -4,6 +4,7 @@ import SearchNav from "./SearchNav";
 import SearchNav2 from "./SearchNav2";
 import { Link, useLocation } from "react-router-dom";
 import MenuOpen from "./MenuOpen";
+import Internet from "../Internet";
 const TopNav = () => {
     const location = useLocation();
 
@@ -12,6 +13,7 @@ const TopNav = () => {
  
     const [hideMiddleNav, setHideMiddleNav] = useState(isRoomPage);
     const [menuOpen, setMenuOpen] = useState(false);
+    const [internetOpen, setInternetOpen] = useState(false);
     const lastScrollYRef = useRef(0);
 
     // Scroll logic
@@ -130,7 +132,7 @@ useEffect(() => {
                 <button className="text-sm  hover:bg-[#F7F7F7] rounded-full px-3 py-2 font-medium ">
                     Become a host
                 </button>
-                <button className="p-3 rounded-full bg-[#EBEBEB] hover:bg-[#e2e2e2] transition-colors">
+                <button onClick={() => setInternetOpen((prev) => !prev)}  className="p-3 rounded-full bg-[#EBEBEB] hover:bg-[#e2e2e2] transition-colors">
                     <Globe size={16} />
                 </button>
                 <button
@@ -143,6 +145,9 @@ useEffect(() => {
                 {/* Dropdown */}
                 {menuOpen && (
                     <MenuOpen/>
+                )}
+                {internetOpen && (
+                    <Internet onClose = {() =>setInternetOpen(false)}/>
                 )}
 
             </div>

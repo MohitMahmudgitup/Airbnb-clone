@@ -4,10 +4,10 @@ import Inspiration from "../components/Inspiration"
 
 const Home = () => {
   return (
-    <div className=' bg-white'>
+    <div className=''>
       
       <HomeProductList/>
-      <Inspiration/>
+      {/* <Inspiration/> */}
     </div>
   )
 }
