@@ -30,7 +30,7 @@ const Reserve = () => {
 
         {/* Guests */}
         <div className="border rounded-md p-2 mb-4">
-          <p className="uppercase text-gray-500 text-[11px]">Guests</p>
+          <p className="uppercase  text-[11px]">Guests</p>
           <select className="w-full text-sm outline-none">
             <option>1 guest</option>
             <option>2 guests</option>
