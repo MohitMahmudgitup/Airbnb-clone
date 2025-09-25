@@ -77,15 +77,15 @@ const homesData = [
 const HomeProductList = () => {
   return (
     <div>
-      <SwiperProduct homes={homesData} slidesPerView={6} sectionTitle="Popular homes in Kuala Lumpur" />
-      <SwiperProduct homes={homesData} slidesPerView={6} sectionTitle="Available next month in Bangkok" />
-      <SwiperProduct homes={homesData} slidesPerView={6} sectionTitle="Stay in London" />
-      <SwiperProduct homes={homesData} slidesPerView={6} sectionTitle="Available next month in Toronto" />
-      <SwiperProduct homes={homesData} slidesPerView={6} sectionTitle="Homes in Seoul" />
-      <SwiperProduct homes={homesData} slidesPerView={6} sectionTitle="Available next month in Osaka" />
-      <SwiperProduct homes={homesData} slidesPerView={6} sectionTitle="Places to stay in Tokyo" />
-      <SwiperProduct homes={homesData} slidesPerView={6} sectionTitle="Check out homes in Melbourne" />
-      <SwiperProduct homes={homesData} slidesPerView={6} sectionTitle="Popular homes in Busan" />
+      <SwiperProduct homes={homesData} sectionTitle="Popular homes in Kuala Lumpur" />
+      <SwiperProduct homes={homesData} sectionTitle="Available next month in Bangkok" />
+      <SwiperProduct homes={homesData} sectionTitle="Stay in London" />
+      <SwiperProduct homes={homesData} sectionTitle="Available next month in Toronto" />
+      <SwiperProduct homes={homesData} sectionTitle="Homes in Seoul" />
+      <SwiperProduct homes={homesData} sectionTitle="Available next month in Osaka" />
+      <SwiperProduct homes={homesData} sectionTitle="Places to stay in Tokyo" />
+      <SwiperProduct homes={homesData} sectionTitle="Check out homes in Melbourne" />
+      <SwiperProduct homes={homesData} sectionTitle="Popular homes in Busan" />
     </div>
   )
 }
