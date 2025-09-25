@@ -1,15 +1,15 @@
 const Reserve = () => {
   return (
    
-    <div className="w-[340px] flex sticky top-0 flex-col left-10  font-sans">
+    <div className="w-[360px] flex sticky top-10 flex-col left-10 font-sans pb-12">
       {/* Rare Find Badge */}
-      <div className="flex items-center  justify-center gap-2 bg-pink-100 text-pink-700 text-sm font-medium py-4 px-3 rounded-2xl mb-3">
-        <span>💎</span>
+      <div className="flex items-center  justify-center gap-2 bg-white shadow-xl text-black text-sm font-medium py-4 px-3 rounded-2xl mb-5">
+        <span className="text-xl">💎</span>
         <span>Rare find! This place is usually booked</span>
       </div>
 
       {/* Card */}
-      <div className="border rounded-3xl bg-white  shadow-xl p-5">
+      <div className=" rounded-3xl bg-white  shadow-2xl p-5">
         {/* Price */}
         <div className="text-lg mb-4">
           
@@ -50,8 +50,8 @@ const Reserve = () => {
 
       {/* Report Link */}
       <div className="flex justify-center mt-3">
-        <a href="#" className="text-sm text-gray-600 hover:underline">
-          🚩 Report this listing
+        <a href="#" className="text-sm font-semibold underline text-gray-600 hover:underline">
+           Report this listing
         </a>
       </div>
     </div>

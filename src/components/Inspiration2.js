@@ -1,6 +1,6 @@
 const Inspiration2 = () => {
   return (
-    <div className="px-32 w-[50%] py-6 text-sm bg-[#F7F7F7] text-gray-800">
+    <div className="max-w-6xl mx-auto px-4 sm:px-8 lg:px-32 py-6 text-sm bg-[#F7F7F7] text-gray-800">
       {/* Breadcrumb */}
       <div className="text-gray-500 text-xs mb-6">
         Airbnb &gt; Malaysia &gt; Kuala Lumpur &gt; Kuala Lumpur &gt; Bukit Nanas
@@ -8,10 +8,10 @@ const Inspiration2 = () => {
 
       {/* Explore section */}
       <div className="mb-8">
-        <h2 className="text-lg font-semibold mb-4">
+        <h2 className="text-base sm:text-lg font-semibold mb-4">
           Explore other options in and around Kuala Lumpur
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-4 gap-x-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-4 gap-x-6 sm:gap-x-8">
           {[
             "Kuala Lumpur",
             "Petaling District",
@@ -33,7 +33,7 @@ const Inspiration2 = () => {
 
       {/* Other types of stays */}
       <div>
-        <h2 className="text-lg font-semibold mb-4">
+        <h2 className="text-base sm:text-lg font-semibold mb-4">
           Other types of stays on Airbnb
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-3 gap-x-6">
@@ -48,7 +48,10 @@ const Inspiration2 = () => {
             "Vacation rentals with a pool in Federal Territory of Kuala Lumpur",
             "Serviced apartment vacation rentals in Federal Territory of Kuala Lumpur",
           ].map((stay, i) => (
-            <p key={i} className="text-gray-800 hover:underline cursor-pointer">
+            <p
+              key={i}
+              className="text-gray-800 hover:underline cursor-pointer text-sm sm:text-base"
+            >
               {stay}
             </p>
           ))}

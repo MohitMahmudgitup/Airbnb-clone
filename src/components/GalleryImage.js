@@ -14,6 +14,7 @@ const GalleryImage = () => {
   };
 
   return (
+    <>
     <div className="w-full py-6">
       <div className="flex justify-between items-center mb-6">
       <div>
@@ -70,17 +71,10 @@ const GalleryImage = () => {
           ))}
         </div>
       </div>
-       <div className="flex flex-col items-start mb-6">
-      <div>
-        <h1 className="text-2xl font-semibold ">Private room in serviced apartment in Kuala Lumpur, Malaysia</h1>
-      </div>
-        <div className="flex items-center space-x-2">
-    <p className="text-lg font-normal" > 2 guests . Studio . 1 bed . 0 shared baths</p>
-    </div>
 
-
-      </div>
     </div>
+    
+    </>
   );
 };
 

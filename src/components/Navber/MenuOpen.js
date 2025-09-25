@@ -3,7 +3,7 @@ import { IoIosHelpCircleOutline } from 'react-icons/io'
 
 const MenuOpen = () => {
   return (
-     <div className="absolute right-0 top-16 py-2 bg-white shadow-2xl rounded-xl  w-64">
+     <div className="absolute right-0 top-16 py-2 z-50 bg-white shadow-2xl rounded-xl  w-64">
                         <div className="flex flex-col space-y-1 text-sm text-gray-700">
                             <button className="text-left hover:bg-zinc-100 py-2 pl-4 flex items-center gap-2"> <IoIosHelpCircleOutline size={20}/> Help Center</button>
                             <div className="border-t " />

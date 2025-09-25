@@ -9,7 +9,7 @@ const Navber = () => {
   return (
     <div className={` border-b z-50 ${isRoomPage ? "" : " sticky top-0 "}   `}>
       <div className='xl:block hidden'><TopNav/></div>
-      <div className='xl:hidden block'><MoblieNav/></div>
+      <div className='xl:hidden block'>{isRoomPage ? "" : <MoblieNav/>}</div>
     </div>
   )
 }
