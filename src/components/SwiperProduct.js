@@ -35,7 +35,7 @@ export default function SwiperProduct({ homes, slidesPerView = 7 , sectionTitle 
     }, []);
 
     return (
-        <div className="max-w-7xl relative mx-auto py-5 px-2  sm:px-0 ">
+        <div className="max-w-7xl relative mx-auto py-5 px-2  sm:px-0 md:px-2 ">
             <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
                 {sectionTitle}<IoIosArrowForward size={15} />
             </h2>

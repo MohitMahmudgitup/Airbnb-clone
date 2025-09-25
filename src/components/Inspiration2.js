@@ -1,6 +1,6 @@
 const Inspiration2 = () => {
   return (
-    <div className="px-32 py-6 text-sm bg-[#F7F7F7] text-gray-800">
+    <div className="px-32 w-[50%] py-6 text-sm bg-[#F7F7F7] text-gray-800">
       {/* Breadcrumb */}
       <div className="text-gray-500 text-xs mb-6">
         Airbnb &gt; Malaysia &gt; Kuala Lumpur &gt; Kuala Lumpur &gt; Bukit Nanas

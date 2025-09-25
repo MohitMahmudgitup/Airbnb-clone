@@ -46,16 +46,16 @@ useEffect(() => {
         <div className={`w-full ${isRoomPage ? "bg-white " :" bg-[#F7F7F7]"}  flex items-start justify-between px-7   z-50  shadow-sm`}>
             {/* Left: Logo */}
             <Link to={"/"} className="flex items-center mt-4  ">
-                <img
+                <img 
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png"
                     alt="Airbnb"
-                    className=" w-28 "
+                    className="w-20 sm:w-28 md:w-32 lg:w-36 "
                     loading="lazy"
                 />
             </Link>
 
             {/* Middle: Navigation */}
-            <div className="flex justify-center flex-col ml-24      w-[65%]">
+            <div className="flex justify-center flex-col  lg:ml-20  w-[90%] sm:w-[40%] xl:w-[50%] 2xl:w-[65%]">
                 {/* Middle Nav (smooth hide/show) */}
                 <div
                     className={`flex items-center justify-center gap-8 transition-all duration-500 ease-in-out transform ${hideMiddleNav
@@ -107,7 +107,7 @@ useEffect(() => {
                 </div>
 
                 {/* SearchNav container */}
-                <div className="mt-1 relative">
+                <div className="mt-1 relative ">
                     <div
                         className={`transition-all duration-500 ease-in-out transform ${hideMiddleNav
                                 ? "scale-y-0 opacity-0 h-0 pointer-events-none"
@@ -116,8 +116,8 @@ useEffect(() => {
                     >
                         <SearchNav />
                     </div>
-                    <div
-                        className={`absolute -top-12 left-56 w-full transition-all duration-500 ease-in-out transform ${hideMiddleNav
+                    <div 
+                        className={`absolute w-10  -top-12 sm:left-0 md:left-20 maje:left-36 2xl:left-[560px] transition-all duration-500 ease-in-out transform ${hideMiddleNav
                                 ? "scale-y-100 opacity-100"
                                 : "scale-y-0 opacity-0 pointer-events-none"
                             } origin-top`}

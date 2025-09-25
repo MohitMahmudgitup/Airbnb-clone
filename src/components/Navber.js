@@ -8,8 +8,8 @@ const Navber = () => {
   const isRoomPage = location.pathname.startsWith("/rooms/");
   return (
     <div className={` border-b z-50 ${isRoomPage ? "" : " sticky top-0 "}   `}>
-      <div className='md:block hidden'><TopNav/></div>
-      <div className='md:hidden block'><MoblieNav/></div>
+      <div className='xl:block hidden'><TopNav/></div>
+      <div className='xl:hidden block'><MoblieNav/></div>
     </div>
   )
 }
