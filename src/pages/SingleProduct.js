@@ -20,7 +20,6 @@ import Footer from '../components/Footer'
 
 const SingleProduct = () => {
   const p = useParams()
-  console.log(p)
   return (
     <>
     
