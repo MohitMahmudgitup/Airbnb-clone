@@ -4,12 +4,12 @@ import { AiOutlineHolder } from "react-icons/ai";
 
 const GalleryImage = () => {
   const gallery = {
-    main: "https://picsum.photos/800/600?random=1",
+    main: "",
     others: [
-      "https://picsum.photos/400/300?random=2",
-      "https://picsum.photos/400/300?random=3",
-      "https://picsum.photos/400/300?random=4",
-      "https://picsum.photos/400/300?random=5",
+      // "https://picsum.photos/400/300?random=2",
+      // "https://picsum.photos/400/300?random=3",
+      // "https://picsum.photos/400/300?random=4",
+      // "https://picsum.photos/400/300?random=5",
     ],
   };
 
