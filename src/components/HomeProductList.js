@@ -7,7 +7,7 @@ const homesData = [
     location: 'Kuala Lumpur',
     price: '$57 for 2 nights',
     rating: 4.87,
-    image: 'https://picsum.photos/400/300?random=2',
+    image: '',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$65 for 2 nights',
     rating: 4.83,
-    image: 'https://picsum.photos/400/300?random=3',
+    image: '',
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$79 for 2 nights',
     rating: 4.87,
-    image: 'https://picsum.photos/400/300?random=4',
+    image: '',
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const homesData = [
     location: 'Kuala Lumpur',
     price: '$92 for 2 nights',
     rating: 4.88,
-    image: 'https://picsum.photos/400/300?random=5',
+    image: '',
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$116 for 2 nights',
     rating: 4.97,
-    image: 'https://picsum.photos/400/300?random=6',
+    image: '',
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$116 for 2 nights',
     rating: 4.97,
-    image: 'https://picsum.photos/400/300?random=7',
+    image: '',
   },
   {
     id: 7,
@@ -55,14 +55,14 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$116 for 2 nights',
     rating: 4.97,
-    image: 'https://picsum.photos/400/300?random=8',
+    image: '',
   }, {
     id: 8,
     title: 'Apartment in Bukit Bintang',
     location: 'Bukit Bintang',
     price: '$116 for 2 nights',
     rating: 4.97,
-    image: 'https://picsum.photos/400/300?random=9',
+    image: '',
   },
   {
     id: 9,
@@ -70,7 +70,7 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$116 for 2 nights',
     rating: 4.97,
-    image: 'https://picsum.photos/400/300?random=10',
+    image: '',
   },
 ];
 
