@@ -1,5 +1,6 @@
 import React from 'react'
 import SwiperProduct from './SwiperProduct'
+import { pic } from '../pic/db';
 const homesData = [
   {
     id: 1,
@@ -7,7 +8,7 @@ const homesData = [
     location: 'Kuala Lumpur',
     price: '$57 for 2 nights',
     rating: 4.87,
-    image: '',
+    image: pic.pic01,
   },
   {
     id: 2,
@@ -15,7 +16,7 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$65 for 2 nights',
     rating: 4.83,
-    image: '',
+    image: pic.pic09,
   },
   {
     id: 3,
@@ -23,7 +24,7 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$79 for 2 nights',
     rating: 4.87,
-    image: '',
+    image: pic.pic08,
   },
   {
     id: 4,
@@ -31,7 +32,7 @@ const homesData = [
     location: 'Kuala Lumpur',
     price: '$92 for 2 nights',
     rating: 4.88,
-    image: '',
+    image: pic.pic10,
   },
   {
     id: 5,
@@ -39,7 +40,7 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$116 for 2 nights',
     rating: 4.97,
-    image: '',
+    image: pic.pic04,
   },
   {
     id: 6,
@@ -47,7 +48,7 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$116 for 2 nights',
     rating: 4.97,
-    image: '',
+    image: pic.pic03,
   },
   {
     id: 7,
@@ -55,14 +56,14 @@ const homesData = [
     location: 'Bukit Bintang',
     price: '$116 for 2 nights',
     rating: 4.97,
-    image: '',
+    image: pic.pic02,
   }, {
     id: 8,
     title: 'Apartment in Bukit Bintang',
     location: 'Bukit Bintang',
     price: '$116 for 2 nights',
     rating: 4.97,
-    image: '',
+    image: pic.pic01,
   },
   {
     id: 9,

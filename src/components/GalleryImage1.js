@@ -8,13 +8,11 @@ import { FaArrowLeft } from "react-icons/fa";
 import { FcLike } from "react-icons/fc";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { pic } from "../pic/db";
 
 const GalleryImage1 = () => {
   const images = [
-    // "https://picsum.photos/800/600?random=1",
-    // "https://picsum.photos/800/600?random=2",
-    // "https://picsum.photos/800/600?random=3",
-    // "https://picsum.photos/800/600?random=4",
+     pic.pic01,pic.pic02,pic.pic03,pic.pic04
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);

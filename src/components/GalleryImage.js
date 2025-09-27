@@ -1,14 +1,11 @@
 import { Heart, Share2Icon } from "lucide-react";
 import { AiOutlineHolder } from "react-icons/ai";
-
+import {pic} from "../pic/db"
 const GalleryImage = () => {
   const gallery = {
-    main:"" ,
+    main:pic.pic01 ,
     others: [
-      // "https://picsum.photos/400/300?random=2",
-      // "https://picsum.photos/400/300?random=3",
-      // "https://picsum.photos/400/300?random=4",
-      // "https://picsum.photos/400/300?random=5",
+      pic.pic01,pic.pic02,pic.pic03,pic.pic04
     ],
   };
 
