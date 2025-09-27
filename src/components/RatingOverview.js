@@ -17,6 +17,7 @@ export default function RatingOverview() {
         <div className="flex justify-center items-center space-x-4 mb-2 flex-wrap">
           <img
             className="w-16 sm:w-24"
+             alt="Rating overview"
             src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-GuestFavorite/original/78b7687c-5acf-4ef8-a5ea-eda732ae3b2f.png"
           />
           <h2 className="text-5xl sm:text-[90px] pb-4 sm:pb-8 font-semibold text-gray-900">
@@ -24,6 +25,7 @@ export default function RatingOverview() {
           </h2>
           <img
             className="w-16 sm:w-24"
+             alt="Rating overview"
             src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-GuestFavorite/original/b4005b30-79ff-4287-860c-67829ecd7412.png"
           />
         </div>

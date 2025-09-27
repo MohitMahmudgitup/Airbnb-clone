@@ -14,6 +14,7 @@ export default function LocationSection() {
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
+          title="Map of location" 
         ></iframe>
       </div>
 

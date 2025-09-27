@@ -19,7 +19,6 @@ import GalleryImage1 from '../components/GalleryImage1'
 import Footer from '../components/Footer'
 
 const SingleProduct = () => {
-  const p = useParams()
   return (
     <>
     

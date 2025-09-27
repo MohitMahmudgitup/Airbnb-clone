@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 export default function SwiperProduct({ homes, slidesPerView = 7 , sectionTitle = "Popular homes" }) {
     const [favorites, setFavorites] = useState([]);
-    const [errorHomes, setErrorHomes] = useState([]);
+    const [errorHomes] = useState([]);
 
     const prevRef = useRef(null);
     const nextRef = useRef(null);

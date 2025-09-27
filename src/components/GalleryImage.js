@@ -1,5 +1,4 @@
-import { Heart, Share2, Share2Icon } from "lucide-react";
-import React from "react";
+import { Heart, Share2Icon } from "lucide-react";
 import { AiOutlineHolder } from "react-icons/ai";
 
 const GalleryImage = () => {
