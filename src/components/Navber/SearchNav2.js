@@ -7,7 +7,7 @@ const SearchNav2 = () => {
       {/* Left icon */}
       <div className="flex items-center space-x-1">
         <img
-          src="hzttps://png.pngtree.com/png-vector/20240319/ourmid/pngtree-minimalist-brown-wooden-cabin-real-estate-png-image_12011929.png"
+          src="https://png.pngtree.com/png-vector/20240319/ourmid/pngtree-minimalist-brown-wooden-cabin-real-estate-png-image_12011929.png"
           alt="home icon"
           className=" h-8"
         />

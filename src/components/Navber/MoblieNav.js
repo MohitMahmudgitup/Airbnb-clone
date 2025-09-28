@@ -56,7 +56,7 @@ const MoblieNav = () => {
       <div className="nav-section flex justify-around items-center py-3 text-sm text-gray-700">
         <div className="flex flex-col items-center cursor-pointer">
           <img
-            szrc="https://png.pngtree.com/png-vector/20240319/ourmid/pngtree-minimalist-brown-wooden-cabin-real-estate-png-image_12011929.png"
+            src="https://png.pngtree.com/png-vector/20240319/ourmid/pngtree-minimalist-brown-wooden-cabin-real-estate-png-image_12011929.png"
             alt="Homes"
             className="h-10"
             loading="lazy"
