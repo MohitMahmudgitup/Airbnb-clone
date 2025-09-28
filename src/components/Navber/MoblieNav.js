@@ -56,7 +56,8 @@ const MoblieNav = () => {
       <div className="nav-section flex justify-around items-center py-3 text-sm text-gray-700">
         <div className="flex flex-col items-center cursor-pointer">
           <img
-            src="https://png.pngtree.com/png-vector/20240319/ourmid/pngtree-minimalist-brown-wooden-cabin-real-estate-png-image_12011929.png"
+            src=""
+            // src="https://png.pngtree.com/png-vector/20240319/ourmid/pngtree-minimalist-brown-wooden-cabin-real-estate-png-image_12011929.png"
             alt="Homes"
             className="h-10"
             loading="lazy"
@@ -65,7 +66,8 @@ const MoblieNav = () => {
 
         <div className="flex flex-col items-center cursor-pointer">
           <img
-            src="https://static.vecteezy.com/system/resources/thumbnails/057/153/690/small/vibrant-vintage-fiery-red-hot-air-balloon-isolated-on-transparent-background-detailed-free-png.png"
+            src=""
+            // src="https://static.vecteezy.com/system/resources/thumbnails/057/153/690/small/vibrant-vintage-fiery-red-hot-air-balloon-isolated-on-transparent-background-detailed-free-png.png"
             alt="Experiences"
             className="h-10 transition-transform duration-300 ease-in-out hover:scale-110"
             loading="lazy"
@@ -75,7 +77,8 @@ const MoblieNav = () => {
 
         <div className="flex flex-col items-center cursor-pointer">
           <img
-            src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/3d67e9a9-520a-49ee-b439-7b3a75ea814d.png?im_w=240"
+            src=""
+            // src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/3d67e9a9-520a-49ee-b439-7b3a75ea814d.png?im_w=240"
             alt="Services"
             className="h-10 transition-transform duration-300 ease-in-out hover:scale-110"
             loading="lazy"

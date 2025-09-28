@@ -5,7 +5,8 @@ const Hosted = () => {
     <div className="flex items-center space-x-3 font-sans mt-6 pb-6 border-b px-4 sm:px-0">
       {/* Profile Image */}
       <img
-        src="https://cdn-icons-png.flaticon.com/512/9131/9131478.png" // Replace with actual profile image URL
+        src="" // Replace with actual profile image URL
+        //  src="https://cdn-icons-png.flaticon.com/512/9131/9131478.png" // Replace with actual profile image URL
         alt="Host"
         className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full flex-shrink-0"
       />
