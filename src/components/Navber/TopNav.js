@@ -8,6 +8,7 @@ import Internet from "../Internet";
 const TopNav = () => {
     const location = useLocation();
 
+  // চেক করছি রুটটা /rooms/:id কিনা
   const isRoomPage = location.pathname.startsWith("/rooms/");
  
     const [hideMiddleNav, setHideMiddleNav] = useState(isRoomPage);
@@ -46,8 +47,7 @@ useEffect(() => {
             {/* Left: Logo */}
             <Link to={"/"} className="flex items-center mt-4  ">
                 <img 
-                    src=""
-                    // src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png"
                     alt="Airbnb"
                     className="w-20 sm:w-28 md:w-32 lg:w-36 "
                     loading="lazy"
@@ -67,8 +67,7 @@ useEffect(() => {
                     <div className="flex flex-col items-center cursor-pointer">
                         <div className="flex gap-1 justify-center items-center">
                             <img
-                                src=""
-                                // src="https://png.pngtree.com/png-vector/20240319/ourmid/pngtree-minimalist-brown-wooden-cabin-real-estate-png-image_12011929.png"
+                                src="https://png.pngtree.com/png-vector/20240319/ourmid/pngtree-minimalist-brown-wooden-cabin-real-estate-png-image_12011929.png"
                                 alt="Homes"
                                 className="h-10"
                                 loading="lazy"
@@ -84,8 +83,7 @@ useEffect(() => {
                     <div className="flex flex-col items-center cursor-pointer">
                         <div className="flex gap-1 justify-center items-center">
                             <img
-                                src=""
-                                // src="https://static.vecteezy.com/system/resources/thumbnails/057/153/690/small/vibrant-vintage-fiery-red-hot-air-balloon-isolated-on-transparent-background-detailed-free-png.png"
+                                src="https://static.vecteezy.com/system/resources/thumbnails/057/153/690/small/vibrant-vintage-fiery-red-hot-air-balloon-isolated-on-transparent-background-detailed-free-png.png"
                                 alt="Experiences"
                                 className="h-10 transition-transform duration-300 ease-in-out hover:scale-110"
                                 loading="lazy"
@@ -98,8 +96,7 @@ useEffect(() => {
                     <div className="flex flex-col items-center cursor-pointer">
                         <div className="flex justify-center items-center">
                             <img
-                                src=""
-                                // src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search--bar-icons/original/3d67e9a9-520a-49ee-b439-7b3a75ea814d.png?im_w=240"
+                                src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/3d67e9a9-520a-49ee-b439-7b3a75ea814d.png?im_w=240"
                                 alt="Services"
                                 className="h-16 transition-transform duration-300 ease-in-out hover:scale-110"
                                 loading="lazy"

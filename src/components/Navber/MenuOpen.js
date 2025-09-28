@@ -21,8 +21,7 @@ const MenuOpen = () => {
 
                                 <img
                                     className="w-12 h-12"
-                                    src=""
-                                    // src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-UserProfile/original/5347d650-16de-4f5a-a38e-79edc988befa.png"
+                                    src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-UserProfile/original/5347d650-16de-4f5a-a38e-79edc988befa.png"
                                     alt="Services" />
 
                             </div>

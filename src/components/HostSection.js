@@ -76,8 +76,7 @@ export default function HostSection() {
           <h3 className="font-semibold text-gray-900">Co-hosts</h3>
           <div className="flex items-center space-x-2 mt-2">
             <img
-              src=""
-              // src="https://cdn-icons-png.flaticon.com/512/9131/9131478.png"
+              src="https://cdn-icons-png.flaticon.com/512/9131/9131478.png"
               alt="Co-host"
               className="w-10 h-10 rounded-full object-cover"
             />
